@@ -1,6 +1,5 @@
 create database ProjetoTamar;
 use ProjetoTamar;
-create database Projeto_tamar;
 
 create table tartarugas(
 id int(11) primary key,
@@ -8,14 +7,6 @@ Especie varchar(155),
 Nome_popular varchar(155),
 Tipo_de_localizador varchar(155),
 Risco_de_Extincao varchar(30));
-
-create table localizacoes(
-Id_Localizacao int(11) primary key,
-Id_tartaruga int(11),
-Latitude float,
-Longitude float,
-Data date,
-Horario varchar(15));
 
 
 # Testes ///////////////////////////////////////////////////////////////////////////////
